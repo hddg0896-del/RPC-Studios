@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "presets": [
+    {
+      "name": "Coding Session",
+      "author": "RPC Studio Starter Pack",
+      "description": "A live coding status with CPU and RAM usage.",
+      "preset": {
+        "name": "Coding Session",
+        "activity_type": "Playing",
+        "details": "Coding at {time}",
+        "state": "CPU {cpu} · RAM {ram}",
+        "timer_mode": "Elapsed"
+      }
+    },
+    {
+      "name": "Lo-fi Break",
+      "author": "RPC Studio Starter Pack",
+      "description": "A quiet listening status for your music break.",
+      "preset": {
+        "name": "Lo-fi Break",
+        "activity_type": "Listening",
+        "details": "Lo-fi beats to relax to",
+        "state": "{quote}",
+        "timer_mode": "Elapsed"
+      }
+    },
+    {
+      "name": "Stream Night",
+      "author": "RPC Studio Starter Pack",
+      "description": "A streaming-inspired status with a watch link placeholder.",
+      "preset": {
+        "name": "Stream Night",
+        "activity_type": "Streaming",
+        "details": "Live now · come hang out",
+        "state": "PC up for {uptime}",
+        "stream_url": "https://twitch.tv/yourname",
+        "timer_mode": "None"
+      }
+    },
+    {
+      "name": "Spotify Now Playing",
+      "author": "RPC Studio Starter Pack",
+      "description": "Uses the Spotify variables; connect Spotify in Settings first.",
+      "preset": {
+        "name": "Spotify Now Playing",
+        "activity_type": "Listening",
+        "details": "{spotify_title}",
+        "state": "by {spotify_artist}",
+        "large_text": "{spotify_album}",
+        "small_text": "Spotify",
+        "buttons": [
+          {
+            "label": "Open Spotify",
+            "url": "https://open.spotify.com"
+          },
+          {
+            "label": "",
+            "url": ""
+          }
+        ],
+        "timer_mode": "Spotify"
+      }
+    }
+  ]
+}
